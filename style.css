@@ -293,53 +293,75 @@ section.some-facts-area p {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 65px;
 }
 
 .sponspor-img img {
     width: 50%;
 }
 
+/*-----footer-area css-----*/
+
+footer.footer-area {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.footer-text h1 {
+    font-weight: 400;
+    color: #cdcdcd;
+}
+
+.footer-text p {
+    width: 548px;
+    margin: auto;
+    font-size: 15px;
+    color: #b2b0ac;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.footer-icon {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.footer-icon i {
+    border: 1px solid white;
+    padding: 8px 6px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.footer-icon i:first-child {
+    padding: 8px 11px;
+}
+
+.footer-icon i:nth-child(2) {
+    padding: 9px;
+}
+
+.footer-icon i:last-child {
+    padding: 8px 9px;
+}
+
+.copyright {
+    width: 920px;
+    margin: auto;
+    background: #212121;
+}
+
+.copyright p {
+    font-size: 10px;
+    color: #b49f78;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------Responsive area--------------*/
 
 
 
@@ -534,6 +556,24 @@ section.some-facts-area p {
     margin-left: 18px;
 }
 
+/*-----footer-area responsive-----*/
+
+.footer-text p {
+    width: 264px;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.copyright {
+    width: 240px;
+    height: 50px;
+}
+
+.copyright p {
+    font-size: 11px;
+    margin-left: -14px;
+    padding-top: 9px;
+}
 
 }
 
