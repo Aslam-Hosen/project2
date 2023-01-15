@@ -270,6 +270,36 @@ section.some-facts-area p {
     color: white;
 }
 
+/*-----our-sponspon------*/
+
+.sponspor-text {
+    text-align: center;
+}
+
+.sponspor-text h1 {
+    font-weight: 900;
+    color: #40392d;
+}
+
+.sponspor-text p {
+    font-size: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    color: #9f988b;
+}
+
+.sponspor-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.sponspor-img img {
+    width: 50%;
+}
+
 
 
 
@@ -483,7 +513,26 @@ section.some-facts-area p {
     margin-top: 10px;
 }
 
+/*-----our-sponspor responsive-----*/
 
+.sponspor-wrapper{
+    grid-template-columns: repeat(3, 1fr);
+}
+.sponspor-text p {
+    width: 300px;
+}
+
+.sponspor-img img {
+    width: 65px;
+}
+
+.sponspor-text h1{
+  text-align: center;
+}
+
+.sponspor-img {
+    margin-left: 18px;
+}
 
 
 }
