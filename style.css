@@ -96,7 +96,7 @@ a{
 
 /*-----Features-area css-----*/
 
-.div.features-wrapper {
+.features-wrapper {
     padding-top: 60px;
     display: flex;
     align-items: center;
@@ -208,7 +208,67 @@ span.color3 {
     font-size: 12px;
 }
 
+/*-----Some-facts css-----*/
 
+section.some-facts-area h1 {
+    font-weight: 800;
+}
+
+section.some-facts-area p {
+    font-size: 10px;
+    width: 335px;
+    color: #837965;
+    margin-top: 12px;
+}
+
+.some-facts-wrapper {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.some-facts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.single-some-facts {
+    border: 1px solid #ff900e;
+    margin: 37px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 17px;
+}
+
+.some-icon img {
+    width: 35px;
+    margin-top: -2px;
+}
+
+.single-some-facts span {
+    font-size: 11px;
+}
+
+.single-some- {
+    color: wheat;
+}
+
+.some-facts-wrapper h2 {
+    color: #645c4e;
+}
+
+.single-some-facts:hover {
+    background: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+.single-some-facts {
+    transition: .5s;
+}
+
+.single-some-facts:hover h2 {
+    color: white;
+}
 
 
 
@@ -398,8 +458,51 @@ justify-content: center;
     margin-left: 28px;
 }
 
+/*-----Some-fact-area responsive-----*/
+
+.some-facts-wrapper{
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 35px;
+}
+
+.container{
+    width: 100%;
+}
+
+.single-some-facts{
+    margin: 10px;
+}
+
+section.some-facts-area p {
+    width: 300px;
+    text-align: center;
+}
+
+.some-area-font h1 {
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
